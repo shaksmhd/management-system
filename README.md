@@ -94,4 +94,5 @@ Here is an example of using the library management system:
 ## Conclusion
 
 This library management system demonstrates the use of an event-driven architecture in Java to implement a simple library management system. The system allows users to add books, register users, borrow and return books, and search for books by title, author, or ISBN. The system enforces a maximum borrow limit for users and uses custom annotations and validators for validation. The code is organized into classes such as Main, Book, User, Library, and event handlers, following object-oriented principles. The use of annotations and Java Reflection provides a flexible and extensible way to enforce validation rules. The system can be further extended by adding new features or improving existing functionality.
-2024 Shaka Muhammed
+
+© 2024 Shaka Muhammed

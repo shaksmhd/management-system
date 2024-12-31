@@ -2,6 +2,11 @@
 
 This is a simple library management system implemented in Java using an event-driven architecture. The system allows users to add books, register users, borrow and return books, and search for books by title, author, or ISBN. The system also enforces a maximum borrow limit for users.
 
+## Prerequisites
+
+- **Java**: Ensure you have Java Development Kit (JDK) version 11 or higher installed. You can download it from [Oracle's official website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+- **Git**: Ensure you have Git version 2.20.0 or higher installed. You can download it from [Git's official website](https://git-scm.com/).
+
 ## Technologies Used
 
 - **Java**: The programming language used for development.
@@ -21,9 +26,10 @@ This is a simple library management system implemented in Java using an event-dr
 
 1. **Clone the repository**:
    ```bash
-   git clone <https://github.com/shaksmhd/management-system.git>
-   cd <ManagementSystem/>
-    ```
+   git clone https://github.com/shaksmhd/management-system.git
+   cd management-system
+   ```
+   
 2. **Compile the code**:
     ```bash
    javac -d bin src/*.java

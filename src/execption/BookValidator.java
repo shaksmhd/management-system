@@ -13,7 +13,6 @@ public class BookValidator {
         if (book.getIsbn().length() != 5) {
             throw new InvalidIsbnException("Invalid ISBN format.");
         }
-
         // Check for unique ISBN
         if (!isbnSet.add(book.getIsbn())) {
             throw new InvalidIsbnException("ISBN must be unique.");

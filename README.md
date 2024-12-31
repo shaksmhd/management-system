@@ -21,8 +21,8 @@ This is a simple library management system implemented in Java using an event-dr
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone <https://github.com/shaksmhd/management-system.git>
+   cd <ManagementSystem/>
     ```
 2. **Compile the code**:
     ```bash
